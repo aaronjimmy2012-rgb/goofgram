@@ -1,0 +1,15 @@
+{
+  "name": "goofgram-online",
+  "version": "1.0.0",
+  "description": "Instagram-style social media starter with accounts, posts, follows, and live messaging.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
